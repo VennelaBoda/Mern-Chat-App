@@ -6,17 +6,23 @@ JWT authentication adds a layer of security to our chat application, ensuring th
 Socket.io integration brings real-time communication capabilities to our chat application, enabling instant messaging between users.
 
 <b>Tech stack:</b> MERN + Socket.io + TailwindCSS + Daisy UI
+
 Authentication && Authorization with JWT
+
 Real-time messaging with Socket.io
+
 Online user status (Socket.io and React Context)
 
 # Server .env file
 
 FRONTEND_URL = <Frontend URL>
+
 MONGODB_URI = <Mongodb URI>
+
 JWT_SECREAT_KEY = <JWT Secreat Key>
 
 # client .env file
 
 REACT_APP_CLOUDINARY_CLOUD_NAME = <Cloudinary cloud name>
+
 REACT_APP_BACKEND_URL = <Backend URL>
